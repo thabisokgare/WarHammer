@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thabi\\source\\repos\\WarHammer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|c:\\users\\thabi\\source\\repos\\warhammer\\aricthronestrory\\chapter1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|solutionrelative:aricthronestrory\\chapter1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|c:\\users\\thabi\\source\\repos\\warhammer\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|c:\\users\\thabi\\source\\repos\\warhammer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|c:\\users\\thabi\\source\\repos\\warhammer\\aricthronestrory\\chapter2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|solutionrelative:aricthronestrory\\chapter2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|c:\\users\\thabi\\source\\repos\\warhammer\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|c:\\users\\thabi\\source\\repos\\warhammer\\aricthronestrory\\aricthornestory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEDF9E83-60AB-4935-A1CE-FF38BA665708}|WarHammer.csproj|solutionrelative:aricthronestrory\\aricthornestory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chapter2.cs",
+              "DocumentMoniker": "C:\\Users\\thabi\\source\\repos\\WarHammer\\AricThroneStrory\\Chapter2.cs",
+              "RelativeDocumentMoniker": "AricThroneStrory\\Chapter2.cs",
+              "ToolTip": "C:\\Users\\thabi\\source\\repos\\WarHammer\\AricThroneStrory\\Chapter2.cs",
+              "RelativeToolTip": "AricThroneStrory\\Chapter2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:37:45.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\thabi\\source\\repos\\WarHammer\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "C:\\Users\\thabi\\source\\repos\\WarHammer\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAmwHcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T19:16:41.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AricThorneStory.cs",
+              "DocumentMoniker": "C:\\Users\\thabi\\source\\repos\\WarHammer\\AricThroneStrory\\AricThorneStory.cs",
+              "RelativeDocumentMoniker": "AricThroneStrory\\AricThorneStory.cs",
+              "ToolTip": "C:\\Users\\thabi\\source\\repos\\WarHammer\\AricThroneStrory\\AricThorneStory.cs",
+              "RelativeToolTip": "AricThroneStrory\\AricThorneStory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:59:44.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chapter1.cs",
+              "DocumentMoniker": "C:\\Users\\thabi\\source\\repos\\WarHammer\\AricThroneStrory\\Chapter1.cs",
+              "RelativeDocumentMoniker": "AricThroneStrory\\Chapter1.cs",
+              "ToolTip": "C:\\Users\\thabi\\source\\repos\\WarHammer\\AricThroneStrory\\Chapter1.cs",
+              "RelativeToolTip": "AricThroneStrory\\Chapter1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:48:15.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\thabi\\source\\repos\\WarHammer\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\thabi\\source\\repos\\WarHammer\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwD8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:49:43.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thabi\\source\\repos\\WarHammer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\thabi\\source\\repos\\WarHammer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:10:37.143Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

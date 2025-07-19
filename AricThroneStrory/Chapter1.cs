@@ -12,10 +12,9 @@ namespace WarHammer.AricThroneStrory
         public void TheRock()
         {
             DisplayBattleArt();
-            Clear();
-            Battle();
+            
         }
-        private void Battle()
+        private static void Battle()
         {
             
             string battleArt = @"
@@ -70,40 +69,51 @@ namespace WarHammer.AricThroneStrory
 
 
         // Annotate the method to specify platform support
-        public static void PlayBattleTheme(string FilePath)
+        private static void PlayBattleTheme()
         {
-            ConsoleKeyInfo keyInfo = ReadKey(true);
-            SoundPlayer musicplayer = new SoundPlayer();
-            musicplayer.SoundLocation = FilePath;
+            SoundPlayer chapter1 = new SoundPlayer("The Other Side of The Sea (Anime Version) (Guitar and Piano Solo Part).wav");
+            ConsoleKey keyPressed;
+            ConsoleKeyInfo KeyInfo = ReadKey(true);
+                        
+                        keyPressed = KeyInfo.Key;
+
+                        do
+                        {
+                            
+                           if (keyPressed == ConsoleKey.Enter)
+                            {
+                                chapter1.PlaySync();
+                                Battle();
+                            }
+                            
+                        } while(keyPressed != ConsoleKey.Enter);
+
+                         Battle();
             
 
-            if (keyInfo.Key == ConsoleKey.Enter) // Fixed comparison to use 'keyInfo.Key'  
-            {
-                musicplayer.Play();
-            }
-            else if (keyInfo.Key == ConsoleKey.Escape)
-            {
-                musicplayer.Stop();
-            }
         }
 
 
-        public static void DisplayBattleArt()
+        private static void DisplayBattleArt()
         {
-            string battleArt = @" ________  ___  ___  ________  ________  _________  _______   ________           _____     
-        |\   ____\|\  \|\  \|\   __  \|\   __  \|\___   ___\\  ___ \ |\   __  \         / __  \    
-        \ \  \___|\ \  \\\  \ \  \|\  \ \  \|\  \|___ \  \_\ \   __/|\ \  \|\  \       |\/_|\  \   
-        \ \  \    \ \   __  \ \   __  \ \   ____\   \ \  \ \ \  \_|/_\ \   _  _\      \|/ \ \  \  
-         \ \  \____\ \  \ \  \ \  \ \  \ \  \___|    \ \  \ \ \  \_|\ \ \  \\  \|          \ \  \ 
-          \ \_______\ \__\ \__\ \__\ \__\ \__\        \ \__\ \ \_______\ \__\\ _\           \ \__\
-           \|_______|\|__|\|__|\|__|\|__|\|__|         \|__|  \|_______|\|__|\|__|           \|__|
-                                                                                                  
-                                                                                                  
-                                                                                                 ";
+            string battleArt = @" 
 
+ ________  ___  ___  ________  ________  _________  _______   ________           _____     
+|\   ____\|\  \|\  \|\   __  \|\   __  \|\___   ___\\  ___ \ |\   __  \         / __  \    
+\ \  \___|\ \  \\\  \ \  \|\  \ \  \|\  \|___ \  \_\ \   __/|\ \  \|\  \       |\/_|\  \   
+ \ \  \    \ \   __  \ \   __  \ \   ____\   \ \  \ \ \  \_|/_\ \   _  _\      \|/ \ \  \  
+  \ \  \____\ \  \ \  \ \  \ \  \ \  \___|    \ \  \ \ \  \_|\ \ \  \\  \|          \ \  \ 
+   \ \_______\ \__\ \__\ \__\ \__\ \__\        \ \__\ \ \_______\ \__\\ _\           \ \__\
+    \|_______|\|__|\|__|\|__|\|__|\|__|         \|__|  \|_______|\|__|\|__|           \|__|
+                                                                                           
+                                                                                           
+                                                                                           
+
+";
+            
             WriteLine(battleArt);
            
-            PlayBattleTheme("The Other Side of The Sea (Anime Version) (Guitar and Piano Solo Part).wav");
+            
 
         }
     }

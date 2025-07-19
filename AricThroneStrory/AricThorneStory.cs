@@ -13,11 +13,25 @@ namespace WarHammer.AricThroneStrory
 
             Chapter1 chapter1 = new Chapter1();
             chapter1.TheRock();
+            ReadKey(true);
+            Loadingstage();
             
 
 
-            Chapter2 chapter2 = new Chapter2();
-            chapter2.WhisperingWood();
+
+            /* Chapter2 chapter2 = new Chapter2();
+             chapter2.WhisperingWood();
+             */
+        }
+
+        private void Loadingstage()
+        {
+
+            for (int i = 1; i <= 10; i++)
+            {
+                WriteLine($" loading.. {i}%");
+            }
+           
         }
         
         

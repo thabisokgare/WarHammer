@@ -123,23 +123,25 @@ namespace WarHammer
                 case 1:
                     {
                         // Add logic for Elara Moonshadow
-                        var elaraMoonshadowStory = new ElaraMoonshadowStory();
+                       /* var elaraMoonshadowStory = new ElaraMoonshadowStory();
                         elaraMoonshadowStory.Display();
-                        break;
+                       
+                       */ break;
+                        
                     }
                 case 2:
                     {
-                        // Add logic for Gorak Stonefist
+                      /*  // Add logic for Gorak Stonefist
                         var gorakStonefistStory = new GorakStonefistStory();
                         gorakStonefistStory.Display();
-                        break;
+                        */break;
                     }
                 case 3:
                     {
                         // Add logic for Lyria Nightshade
-                        var lyriaNightshadeStory = new LyriaNightshadeStory();
+                        /*var lyriaNightshadeStory = new LyriaNightshadeStory();
                         lyriaNightshadeStory.Display();
-                        break;
+                        */break;
                     }
                 case 4:
                     {
